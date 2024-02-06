@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    padding: 5%;
+}
+[data-content]{
+    display: none;
+}
+
+.active[data-content] {
+    display: block;
+}
+
+.content1{
+    display: flex;
+    place-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu{
+    padding: 3%;
+}
+
