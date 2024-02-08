@@ -3,10 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-align: center;
+    background-color: bisque
+
 }
 
 body{
     padding: 5%;
+    
+
 }
 [data-content]{
     display: none;
@@ -22,10 +27,42 @@ body{
     cursor: pointer;
     border-radius: 20px;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 20px; 
+    text-align: center;
 }
 
 .menu{
-    padding: 3%;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.56s;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px 100px 20px ;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    background-color: rgba(0, 0, 0, 0.185);
 }
 
+.menu:hover{
+    transform: scale(1.060);
+}
+
+.content2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px 10px 200px 200px ;
+}
+
+ul{
+    list-style: none;
+}
+
+footer{
+    text-align: none;
+}
